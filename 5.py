@@ -1,4 +1,7 @@
 import math
-szám = float(input("Írjon be egy számot: "))
+szám = int(input("Írjon be egy számot: "))
 
-szám.sqrt()
+if szám >= 0:
+    print("A szám négyzetgyöke: ",szám.sqrt(szám))
+else:
+    print("Helytelen számot adott meg")
